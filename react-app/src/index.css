@@ -1,0 +1,21 @@
+.gameboard {
+    display: flex;
+    justify-content: center;
+}
+
+.gameboard tr {
+    width: 40vh;
+    height: 4vh;
+}
+
+.gameboard td {
+    width: 4vh;
+    height: 4vh;
+    background: black;
+    border: 1px solid grey;
+}
+
+.gameboard table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
